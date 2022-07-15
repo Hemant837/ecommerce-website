@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-left: 20px;
+    margin-top: 25px;
+    height: 300px;
+    width: 280px;
+    border: 1px solid;
+}
+
+.cardImg {
+    height: 70%;
+    width: 100%;
+}
+
+.cardImg img {
+    height: 100%;
+    width: 100%;
+}
+
+.cardDetails {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardName {
+    font-size: large;
+    color: #162950;
+}
+
+.cardName:hover {
+    text-decoration: underline;
+    color: #162950;
+}
+
+.cardPrice {
+    color: grey;
+    font-size: large;
+}
